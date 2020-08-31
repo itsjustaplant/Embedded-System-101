@@ -53,6 +53,7 @@ unsigned char find_median     (unsigned char *arr, unsigned int length){
             }
         }
     }
+    //https://www.verywellmind.com/how-to-identify-and-calculate-the-mean-median-or-mode-2795785
     median = (median %2 == 0)?((temp_arr[median_index-1]+temp_arr[median_index])/2):(temp_arr[median_index]);
     return  median;
 }
